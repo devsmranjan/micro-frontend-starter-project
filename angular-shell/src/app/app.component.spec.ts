@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-micro-frontend-starter-project'`, () => {
+  it(`should have as title 'angular-shell'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-micro-frontend-starter-project');
+    expect(app.title).toEqual('angular-shell');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-micro-frontend-starter-project app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-shell app is running!');
   });
 });

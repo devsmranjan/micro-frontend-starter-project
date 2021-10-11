@@ -4,8 +4,8 @@
     "description": "Micro-frontend started project",
     "main": "index.js",
     "scripts": {
-        "install": "cd server && npm i && cd .. && cd angular-micro-frontend-starter-project && npm i",
-        "start": "concurrently \"cd server && npm start\" \"cd angular-micro-frontend-starter-project && npm start\""
+        "install": "cd server && npm i && cd .. && cd angular-shell && npm i",
+        "start": "concurrently \"cd server && npm start\" \"cd angular-shell && npm start\""
     },
     "author": "Smruti Ranjan Rana",
     "license": "ISC",
