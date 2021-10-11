@@ -1,0 +1,20 @@
+<!-- <div class="card mt-4">
+  <div class="card-body">
+    {{product.name}}
+    {{product.price}}
+    <a [routerLink]="'/checkout/' + product.id" class="btn btn-primary">Buy</a>
+  </div>
+</div> -->
+
+<div class="card">
+  <div class="card-img">
+    <img [src]="'assets/images/' + product.img" alt="">
+  </div>
+  <div class="card-body">
+    <h2 class="name">{{product.name}}</h2>
+    <h5 class="price">${{product.price}}</h5>
+    <div class="actions">
+      <a [routerLink]="'/checkout/' + product.id" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+</div>

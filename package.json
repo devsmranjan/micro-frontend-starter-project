@@ -1,0 +1,15 @@
+{
+    "name": "micro-frontend",
+    "version": "1.0.0",
+    "description": "Micro-frontend started project",
+    "main": "index.js",
+    "scripts": {
+        "install": "cd server && npm i && cd .. && cd angular-micro-frontend-starter-project && npm i",
+        "start": "concurrently \"cd server && npm start\" \"cd angular-micro-frontend-starter-project && npm start\""
+    },
+    "author": "Smruti Ranjan Rana",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.3.0"
+    }
+}
